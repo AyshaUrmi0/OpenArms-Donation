@@ -31,8 +31,8 @@
     <!-- Center the buttons using full width and flex -->
     <div class="flex items-center justify-center w-full mt-4">
       <div class="space-x-3">
-        <button class="btn bg-[#B4F461] font-semibold">Donate</button>
-        <button class="py-2 font-semibold transition-colors duration-200 btn rounded-r-md focus:outline-none">History</button>
+        <button id="donateTab" class="py-2 font-semibold bg-green-400 btn rounded-l-md ">Donate</button>
+        <button  id="history" class="py-2 font-semibold btn rounded-r-md ">History</button>
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@
     <!-- main content starts here -->
 
     <!-- card design starts here -->
-    <div class="w-10/12 mx-auto mt-4 mb-4 shadow-xl card lg:card-side bg-base-100">
+    <div id='balance-1' class="w-10/12 mx-auto mt-4 mb-4 shadow-xl card lg:card-side bg-base-100">
         <figure class="w-1/2">
           <img 
             src="./assets/noakhali.png" 
@@ -63,7 +63,7 @@
             </div>
         </div>
     </div>
-    <div class="w-10/12 mx-auto mt-4 mb-4 shadow-xl card lg:card-side bg-base-100">
+    <div id='balance-2' class="w-10/12 mx-auto mt-4 mb-4 shadow-xl card lg:card-side bg-base-100">
         <figure class="w-1/2">
           <img 
             src="./assets/feni.png" 
@@ -86,7 +86,7 @@
         </div>
     </div>
 
-    <div class="w-10/12 mx-auto mt-4 mb-4 shadow-xl card lg:card-side bg-base-100">
+    <div id='balance-3' class="w-10/12 mx-auto mt-4 mb-4 shadow-xl card lg:card-side bg-base-100">
       <figure class="w-1/2">
         <img 
           src="./assets/quota-protest.png" 
