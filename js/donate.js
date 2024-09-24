@@ -87,7 +87,7 @@ document.getElementById("donate-now-2").addEventListener("click", function() {
       // Update individual balance
       const addBalance = document.getElementById("balance-2").innerText;
       const newBalance = parseFloat(addBalance) + parsedonation + ' BDT';
-      document.getElementById("balance-card3").innerHTML = newBalance;
+      document.getElementById("balance-").innerHTML = newBalance;
 
       // Update main balance
       const updateMainBalance = document.getElementById("main-balance").innerText;
