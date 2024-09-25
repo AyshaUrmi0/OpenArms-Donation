@@ -51,9 +51,9 @@ document.getElementById("donate-now-1").addEventListener("click", function() {
 
   if (!isNaN(parsedonation_Card_2) && parsedonation_Card_2 > 0) {
       // Update individual balance
-      const addBalance_Card_2 = document.getElementById("balance-1").innerText;
+      const addBalance_Card_2 = document.getElementById("balance-card2").innerText;  // Corrected
       const newBalance_Card_2 = parseFloat(addBalance_Card_2) + parsedonation_Card_2 + ' BDT';
-      document.getElementById("balance-card2").innerHTML = newBalance_Card_2;
+      document.getElementById("balance-card2").innerHTML = newBalance_Card_2;  // Corrected
 
       // Update main balance
       const updateMainBalance_Card_2 = document.getElementById("main-balance").innerText;
@@ -80,9 +80,9 @@ document.getElementById("donate-now-2").addEventListener("click", function() {
 
   if (!isNaN(parsedonation_Card_3) && parsedonation_Card_3 > 0) {
       // Update individual balance
-      const addBalance_Card_3 = document.getElementById("balance-2").innerText;
+      const addBalance_Card_3 = document.getElementById("balance-card3").innerText;  // Corrected
       const newBalance_Card_3 = parseFloat(addBalance_Card_3) + parsedonation_Card_3 + ' BDT';
-      document.getElementById("balance-card3").innerHTML = newBalance_Card_3;
+      document.getElementById("balance-card3").innerHTML = newBalance_Card_3;  // Corrected
 
       // Update main balance
       const updateMainBalance_Card_3 = document.getElementById("main-balance").innerText;
@@ -101,6 +101,7 @@ document.getElementById("donate-now-2").addEventListener("click", function() {
       alert("Please enter a valid donation amount");
   }
 });
+
 
 const historyTab = document.getElementById("history-tab");
 const donateTab = document.getElementById("donate-tab");
